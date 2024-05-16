@@ -11,7 +11,7 @@ def calculator(x, y, operation):
   print(f"the user chose  {user_x}")
   print(f"the user chose  {user_y}")
 
-  result = user_x + user_y
+  result = user_x - user_y
   print(f"the result will be {result}")
 
 #   if(operation == "+"):
@@ -27,6 +27,6 @@ def calculator(x, y, operation):
 
 
 
-result = calculator(10, 5, "/")
+result = calculator(10, 5, "+")
 # print(f"the result is: {result}")
 #add user 
