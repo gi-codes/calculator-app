@@ -1,5 +1,11 @@
 const buttonClick = () => {
   console.log("button was clicked!");
 };
-const result = fetch("http://localhost:5000");
-console.log(result);
+
+const fetchFromBackend = async () => {
+  const result = await fetch("http://localhost:5000");
+  const res = result.text();
+  console.log(res);
+};
+
+fetchFromBackend();
