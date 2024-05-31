@@ -5,11 +5,11 @@
 def calculator(x, y, operation):
   answer = 0
   
-#   x = int(input("choose x "))
-#   y = int(input("choose y "))
-
-#   print(f"the user chose  {x}")
-#   print(f"the user chose  {y}") 
+  try:
+    x = int(x)
+    y = int(y)
+  except Exception:
+    raise ValueError("num1 and num2 should be numbers")
 
   if(operation == "plus"):
     answer = x + y

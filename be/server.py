@@ -14,7 +14,9 @@ def calculate():
     num1 = request.args.get('num1', '')
     num2 = request.args.get('num2', '')
     op = request.args.get('op', '')
+
     result = calculator(num1, num2, op)
+
     return {
         'result': result,
         'query1':num1,
