@@ -14,24 +14,25 @@
     </div>
 
     <div class="number-container">
-        <button> 1 </button>
-        <button> 2 </button>
-        <button> 3 </button>
-        <button> 4 </button>
-        <button> 5 </button>
-        <button> 6 </button>
-        <button> 7 </button>
-        <button> 8 </button>
-        <button> 9 </button>
-        <button> 0 </button>
+        <button onClick="numberButtonClick(1)"> 1 </button>
+        <button onClick="numberButtonClick(2)"> 2 </button>
+        <button onClick="numberButtonClick(3)"> 3 </button>
+        <button onClick="numberButtonClick(4)"> 4 </button>
+        <button onClick="numberButtonClick(5)"> 5 </button>
+        <button onClick="numberButtonClick(6)"> 6 </button>
+        <button onClick="numberButtonClick(7)"> 7 </button>
+        <button onClick="numberButtonClick(8)"> 8 </button>
+        <button onClick="numberButtonClick(9)"> 9 </button>
+        <button onClick="numberButtonClick(0)"> 0 </button>
+        <!-- <button onClick="numberButtonClick('.')"> . </button> -->
     </div>
 
     <div>
-        <button> + </button>
-        <button> - </button>
-        <button> x </button>
-        <button> / </button>
-        <button> c </button>
+        <button onClick="opButtonClick('plus')"> + </button>
+        <button onClick="opButtonClick('subtract')"> - </button>
+        <button onClick="opButtonClick('multiply')"> x </button>
+        <button onClick="opButtonClick('divide')"> / </button>
+        <button onClick="clearButtonClick()"> c </button>
         <button onClick="equalsButtonClick()"> = </button>
     </div>
 

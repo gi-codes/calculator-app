@@ -6,8 +6,8 @@ def calculator(x, y, operation):
   answer = 0
   
   try:
-    x = int(x)
-    y = int(y)
+    x = float(x)
+    y = float(y)
   except Exception:
     raise ValueError("num1 and num2 should be numbers")
 

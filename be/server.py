@@ -18,7 +18,7 @@ def calculate():
     result = calculator(num1, num2, op)
 
     return {
-        'result': result,
+        'answer': result,
         'query1':num1,
         'query2':num2,
         'query3':op
