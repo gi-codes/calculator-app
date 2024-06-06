@@ -21,3 +21,9 @@ const fetchFromBackend = async () => {
   );
   return result.text();
 };
+
+const display = document.getElementById("display");
+
+function equalsButtonClick(input){
+    display.value += input;
+}
