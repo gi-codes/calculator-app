@@ -2,7 +2,6 @@ let num1 = 10;
 let num2 = 15;
 let op = "plus";
 
-const answerBlock = document.getElementById("answer-block");
 
 const display = document.getElementById("display");
 
@@ -15,7 +14,6 @@ const equalsButtonClick = () => {
 
   fetchFromBackend().then((res) => {
     console.log(res.answer);
-    answerBlock.innerText = res.answer;
     display.value = res.answer;
   });
 };

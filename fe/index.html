@@ -7,37 +7,44 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    Calculator App
 
     <div id="calculator">
             <input id="display" readonly>
     </div>
 
-    <div class="number-container">
-        <button onClick="numberButtonClick(1)"> 1 </button>
-        <button onClick="numberButtonClick(2)"> 2 </button>
-        <button onClick="numberButtonClick(3)"> 3 </button>
-        <button onClick="numberButtonClick(4)"> 4 </button>
-        <button onClick="numberButtonClick(5)"> 5 </button>
-        <button onClick="numberButtonClick(6)"> 6 </button>
-        <button onClick="numberButtonClick(7)"> 7 </button>
-        <button onClick="numberButtonClick(8)"> 8 </button>
-        <button onClick="numberButtonClick(9)"> 9 </button>
-        <button onClick="numberButtonClick(0)"> 0 </button>
-        <!-- <button onClick="numberButtonClick('.')"> . </button> -->
-    </div>
-
-    <div>
-        <button onClick="opButtonClick('plus')"> + </button>
-        <button onClick="opButtonClick('subtract')"> - </button>
-        <button onClick="opButtonClick('multiply')"> x </button>
-        <button onClick="opButtonClick('divide')"> / </button>
-        <button onClick="clearButtonClick()"> c </button>
-        <button onClick="equalsButtonClick()"> = </button>
-    </div>
-
-    <div id="answer-block">
-        answer will go here
+    <div class="numbers-operations">
+        <div class="number-container">
+            <div class= "number-row" > 
+                <button onClick="numberButtonClick(7)"> 7 </button>
+                <button onClick="numberButtonClick(8)"> 8 </button>
+                <button onClick="numberButtonClick(9)"> 9 </button>
+            </div>
+            <div class="number-row">
+                <button onClick="numberButtonClick(4)"> 4 </button>
+                <button onClick="numberButtonClick(5)"> 5 </button>
+                <button onClick="numberButtonClick(6)"> 6 </button>
+            </div>
+           
+            <div class="number-row" >
+                <button onClick="numberButtonClick(1)"> 1 </button>
+                <button onClick="numberButtonClick(2)"> 2 </button>
+                <button onClick="numberButtonClick(3)"> 3 </button>
+            </div>
+           
+            <div class="number-row" >
+                <button onClick="numberButtonClick(0)"> 0 </button>
+            </div>
+            <!-- <button onClick="numberButtonClick('.')"> . </button> -->
+        </div>
+    
+        <div class="operation-container">
+            <button onClick="opButtonClick('plus')"> + </button>
+            <button onClick="opButtonClick('subtract')"> - </button>
+            <button onClick="opButtonClick('multiply')"> x </button>
+            <button onClick="opButtonClick('divide')"> / </button>
+            <button onClick="clearButtonClick()"> c </button>
+            <button onClick="equalsButtonClick()"> = </button>
+        </div>
     </div>
     
 </body>
